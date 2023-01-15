@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+/* App component css */
+.App {
+  width: 428px;
+  height: 926px;
+  border: solid 1px #d3cfcf;
+  margin: auto;
+  background-color: white;
+}
+
+.App-logo {
+  position: relative;
+  width: 198px;
+  height: 198px;
+  left: 116px;
+  top: 45px;
+  margin-bottom: 30px;
+}
+
+/* Header Component css */
+.Header-text-container {
+  width: 330px;
+  height: 52px;
+  text-align: center;
+  margin-left: 56px;
+  margin-bottom: 30px;
+}
+
+.Header-text {
+  font-size: 14px;
+  font-family: Roboto;
+  color: #1a1a1a;
+}
+
+/* Main container css */
+.Main-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.Main-option {
+  border-bottom: solid 3px white;
+  width: 170px;
+  text-align: center;
+  padding-bottom: 6px;
+  user-select: none;
+}
+.Main-option1 {
+  border-bottom: solid 3px white;
+  width: 170px;
+  text-align: center;
+  padding-bottom: 6px;
+  user-select: none;
+}
+
+/* Field component css */
+.Field-email,
+.Field-password {
+  display: block;
+  width: 250px;
+  height: 50px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  border: solid 2px #1a1a1a;
+  opacity: 56%;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #1a1a1a;
+  font-weight: 900;
+}
+
+.Field-button {
+  display: block;
+  width: 300px;
+  height: 50px;
+
+  margin-bottom: 20px;
+  border-radius: 50px;
+  padding-left: 20px;
+  font-size: 16px;
+  border: solid 1px #1a1a1a;
+  background-color: #e70b89;
+  color: white;
+  border: none;
+  position: relative;
+  top: 10px;
+}
+
+.Field-link {
+  color: #e70b89;
+  position: absolute;
+  right: 0px;
+  font-weight: 900;
+  font-size: 14px;
+  user-select: none;
+}
+
+.Field-container {
+  width: 300px;
+  margin: auto;
+  position: relative;
+}
+
+/* Footer component css */
+.Footer-img-container {
+  text-align: center;
+}
+
+.Footer-img {
+  width: 25px;
+  height: 25px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  border: solid 1px #e6e6e6;
+}
+
+.Footer-img-google {
+  width: 25px;
+  height: 25px;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 10px;
+  border: solid 1px #e6e6e6;
+}
+
+.Footer-container {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.Footer-title {
+  font-size: 13px;
+  color: #9d9d9d;
+}
+
+.Footer-text {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 12px;
+}
+
+.Footer-text1 {
+  display: inline-block;
+  margin-left: 3px;
+  font-size: 12px;
+  color: #e70b89;
+}
+.Footer-text2 {
+  display: inline-block;
+  margin-left: 0px;
+  font-size: 12px;
+  color: #e70b89;
+}
